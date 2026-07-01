@@ -10,8 +10,8 @@ center / right**. The label is accepted only when validators **agree on the lean
 equivalence on `lean`), not on the confidence number or the wording of the reasoning. Confidence and
 reasoning are advisory; the lean is the consensus output.
 
-- **Contract (Bradbury, chain 4221):** `DEPLOY_PENDING`
-- **Explorer:** https://explorer-bradbury.genlayer.com/contract/DEPLOY_PENDING
+- **Contract (Bradbury, chain 4221):** `0x9d18527285ebaF99f5cA574c7c6ABB29716DC130`
+- **Explorer:** https://explorer-bradbury.genlayer.com/contract/0x9d18527285ebaF99f5cA574c7c6ABB29716DC130
 
 ---
 
@@ -72,4 +72,4 @@ asserting the state transition (`open` → `rated`) and that the finalized `lean
 genlayer deploy --contract contracts/bias_meter.py
 ```
 
-After deployment, set `CONTRACT_ADDRESS` in `.env` (replace the `DEPLOY_PENDING` placeholder).
+After deployment, set `CONTRACT_ADDRESS` in `.env` (replace the `0x9d18527285ebaF99f5cA574c7c6ABB29716DC130` placeholder).
